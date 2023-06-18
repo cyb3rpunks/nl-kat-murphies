@@ -1,0 +1,22 @@
+{
+    "title": "Arguments",
+    "type": "object",
+    "properties": {
+        "SSH_USERNAME": {
+            "title": "SSH_USERNAME",
+            "maxLength": 128,
+            "type": "string",
+            "description": "The username of the ssh server"
+        },
+        "SSH_PASSWORD": {
+            "title": "SSH_PASSWORD",
+            "maxLength": 128,
+            "type": "string",
+            "description": "The password of the ssh server"
+        }
+    },
+    "required": [
+        "SSH_USERNAME",
+        "SSH_PASSWORD"
+    ]
+}

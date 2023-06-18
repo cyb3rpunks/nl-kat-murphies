@@ -1,0 +1,19 @@
+    {
+        "id": "nmap-os",
+        "name": "Nmap OS",
+        "description": "Searches for (vulnerable) Operating Systems.",
+        "consumes": [
+            "IPAddressV4",
+            "IPAddressV6"
+        ],
+        "produces": [
+            "IPAddressV6",
+            "Service",
+            "IPPort",
+            "IPAddressV4",
+            "IPService"
+        ],
+        "environment_keys": [
+        ],
+        "scan_level": 2
+    }

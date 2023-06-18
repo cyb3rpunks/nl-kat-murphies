@@ -1,0 +1,12 @@
+{
+    "title": "Arguments",
+    "type": "object",
+    "properties": {
+        "OPERATING SYSTEM": {
+            "title": "OPERATING SYSTEM",
+            "type": "string",
+            "description": "Scan specific Operating System (e.g. Windows/MacOS/Ubuntu)."
+        }
+    },
+    "required": []
+}

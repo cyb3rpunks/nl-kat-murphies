@@ -1,0 +1,12 @@
+    {
+        "id": "rdap",
+        "name": "rdap",
+        "description": "Retrieves HTTP header from a HTTP Resource to analyse the header options",
+        "consumes": [
+            "IPAddressV4"
+        ],
+        "produces": [
+            "IPAddressV4"
+        ] ,
+        "scan_level": 1
+    }

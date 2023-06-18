@@ -1,0 +1,12 @@
+    {
+        "id": "http-header",
+        "name": "http-header",
+        "description": "Retrieves HTTP header from a HTTP Resource to analyse the header options",
+        "consumes": [
+            "HostnameHTTPURL"
+        ],
+        "produces": [
+            "HTTPHeader"
+        ] ,
+        "scan_level": 2
+    }

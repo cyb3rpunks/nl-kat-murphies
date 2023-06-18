@@ -1,0 +1,16 @@
+{
+    "id": "kat_nmap_os_normalize",
+    "consumes": [
+        "nmap-os",
+        "nmap",
+        "nmap-ports",
+        "nmap-ip-range"
+    ],
+    "produces": [
+        "IPAddressV6",
+        "Service",
+        "IPPort",
+        "IPAddressV4",
+        "IPService"
+    ]
+}
